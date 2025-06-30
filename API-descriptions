@@ -1,0 +1,11 @@
+POST /processing/workflows/{workflowId}/runs
+Start a new run of a processing workflow.
+
+GET /processing/runs/{runId}/logs
+Retrieve logs for a specific processing run.
+
+PUT /processing/runs/{runId}/parameters/{paramKey}
+Update a parameter for a running job.
+
+DELETE /processing/runs/{runId}/artifacts/{artifactId}
+Delete a specific output artifact.
